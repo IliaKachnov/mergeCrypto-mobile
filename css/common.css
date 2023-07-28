@@ -1,0 +1,52 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+
+  background-image: url(../img/background-merge.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 4800px;
+  margin: 0;
+  padding: 0;
+  height: 4500px;
+
+}
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  color: white;
+  width: 100%;
+}
+main {
+  height: 100%;
+  flex: 1 1 auto;
+}
+@media (max-width: 1000px) {
+  body {
+    background-size: 1200px 5000px;
+    height: 4900px;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    background-size: 1100px 5000px;
+    height: 4900px;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    background-size: 1000px 5200px;
+    height: 5200px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url(../img/mobile-bg.jpg);
+    height: 2500px;
+  }
+}
